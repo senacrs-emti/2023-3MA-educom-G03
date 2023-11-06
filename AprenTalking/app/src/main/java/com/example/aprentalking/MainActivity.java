@@ -6,34 +6,54 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btntela2,btntela3;
+    ImageButton MainButton,MainButton2,MainButton3,MainButton4;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-    btntela2 = findViewById(R.id.btntela2);
-    btntela3 = findViewById(R.id.btntela3);
+        MainButton = findViewById(R.id.MainButton);
+        MainButton2 = findViewById(R.id.MainButton2);
+        MainButton3 = findViewById(R.id.MainButton3);
+        MainButton4 = findViewById(R.id.MainButton4);
 
-        btntela2.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            Intent tela2 = new Intent(getApplicationContext(),FrutasActivity.class);
-            startActivity(tela2);
-        }
-    });
-
-
-        btntela3.setOnClickListener(new View.OnClickListener() {
+        MainButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                Intent tela3 = new Intent(getApplicationContext(),CoresActivity.class);
-                startActivity(tela3);
+            public void onClick(View view) {
+                Intent alfabeto = new Intent(getApplicationContext(),alfabetoActivity1.class);
+                startActivity(alfabeto);
             }
         });
+
+        MainButton2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent cores = new Intent(getApplicationContext(),CoresActivity.class);
+                startActivity(cores);
+            }
+        });
+
+        MainButton3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent animais = new Intent(getApplicationContext(),AnimaisActivity.class);
+                startActivity(animais);
+            }
+        });
+
+        MainButton4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent frutas = new Intent(getApplicationContext(),FrutasActivity.class);
+                startActivity(frutas);
+            }
+        });
+
 
     }
 }

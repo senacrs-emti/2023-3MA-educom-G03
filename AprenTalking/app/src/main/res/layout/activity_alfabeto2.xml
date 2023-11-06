@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".alfabetoActivity2">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/headerAlfabeto3"
+        android:layout_width="417dp"
+        android:layout_height="57dp"
+        android:background="#FEDA15"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar7"
+        android:layout_width="417dp"
+        android:layout_height="57dp"
+        android:background="#FEDA15"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar6"
+        android:layout_width="359dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="104dp"
+        android:background="#FC0000"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toTopOf="@+id/toolbar2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <ImageView
+        android:id="@+id/logoAlfabeto3"
+        android:layout_width="138dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="656dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/headerAlfabeto"
+        app:layout_constraintVertical_bias="0.013"
+        app:srcCompat="@drawable/microsoftteams_image__1_" />
+
+    <ImageButton
+        android:id="@+id/voltarbtnAlfabeto3"
+        android:layout_width="76dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="@+id/headerAlfabeto"
+        app:layout_constraintEnd_toEndOf="@+id/headerAlfabeto"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="@+id/headerAlfabeto"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/microsoftteams_image" />
+
+    <TextView
+        android:id="@+id/titleAlfabeto3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="132dp"
+        android:text="AprenTalking"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="@+id/headerAlfabeto"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.657" />
+
+    <TextView
+        android:id="@+id/alfabeto2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alfabeto"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar6"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar6"
+        app:layout_constraintStart_toStartOf="@+id/toolbar6"
+        app:layout_constraintTop_toTopOf="@+id/toolbar6" />
+
+    <ImageButton
+        android:id="@+id/Qbtn"
+        android:layout_width="80dp"
+        android:layout_height="105dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/headerAlfabeto3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar6"
+        app:layout_constraintVertical_bias="0.063"
+        app:srcCompat="@drawable/q" />
+
+    <ImageButton
+        android:id="@+id/Rbtn"
+        android:layout_width="80dp"
+        android:layout_height="105dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/headerAlfabeto3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toEndOf="@+id/Qbtn"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar6"
+        app:layout_constraintVertical_bias="0.063"
+        app:srcCompat="@drawable/r" />
+
+    <ImageButton
+        android:id="@+id/Sbtn"
+        android:layout_width="80dp"
+        android:layout_height="105dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/headerAlfabeto3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toEndOf="@+id/Rbtn"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar6"
+        app:layout_constraintVertical_bias="0.063"
+        app:srcCompat="@drawable/s" />
+
+    <ImageButton
+        android:id="@+id/Tbtn"
+        android:layout_width="80dp"
+        android:layout_height="105dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/headerAlfabeto3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.315"
+        app:layout_constraintStart_toEndOf="@+id/Sbtn"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar6"
+        app:layout_constraintVertical_bias="0.063"
+        app:srcCompat="@drawable/t" />
+
+    <ImageButton
+        android:id="@+id/Ubtn"
+        android:layout_width="80dp"
+        android:layout_height="105dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/headerAlfabeto3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Qbtn"
+        app:layout_constraintVertical_bias="0.075"
+        app:srcCompat="@drawable/u" />
+
+    <ImageButton
+        android:id="@+id/Vbtn"
+        android:layout_width="80dp"
+        android:layout_height="105dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/headerAlfabeto3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toEndOf="@+id/Ubtn"
+        app:layout_constraintTop_toBottomOf="@+id/Rbtn"
+        app:layout_constraintVertical_bias="0.075"
+        app:srcCompat="@drawable/v" />
+
+    <ImageButton
+        android:id="@+id/Wbtn"
+        android:layout_width="80dp"
+        android:layout_height="105dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/headerAlfabeto3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toEndOf="@+id/Vbtn"
+        app:layout_constraintTop_toBottomOf="@+id/Sbtn"
+        app:layout_constraintVertical_bias="0.075"
+        app:srcCompat="@drawable/w" />
+
+    <ImageButton
+        android:id="@+id/Xbtn"
+        android:layout_width="80dp"
+        android:layout_height="105dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/headerAlfabeto3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.315"
+        app:layout_constraintStart_toEndOf="@+id/Wbtn"
+        app:layout_constraintTop_toBottomOf="@+id/Tbtn"
+        app:layout_constraintVertical_bias="0.075"
+        app:srcCompat="@drawable/x" />
+
+    <ImageButton
+        android:id="@+id/Ybtn"
+        android:layout_width="80dp"
+        android:layout_height="105dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/headerAlfabeto3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ubtn"
+        app:layout_constraintVertical_bias="0.172"
+        app:srcCompat="@drawable/y" />
+
+    <ImageButton
+        android:id="@+id/Zbtn"
+        android:layout_width="80dp"
+        android:layout_height="105dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/headerAlfabeto3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toEndOf="@+id/Ybtn"
+        app:layout_constraintTop_toBottomOf="@+id/Vbtn"
+        app:layout_constraintVertical_bias="0.172"
+        app:srcCompat="@drawable/z" />
+</androidx.constraintlayout.widget.ConstraintLayout>

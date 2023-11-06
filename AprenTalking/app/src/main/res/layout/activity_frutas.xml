@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".FrutasActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -132,13 +132,13 @@
         android:textColor="@color/black"
         android:textSize="25sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@id/imageView"
-        app:layout_constraintHorizontal_bias="0.608"
-        app:layout_constraintStart_toEndOf="@+id/imageButton3"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar2"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="16dp" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/MainButton3"
         android:layout_width="88dp"
         android:layout_height="59dp"
         android:layout_marginStart="16dp"
