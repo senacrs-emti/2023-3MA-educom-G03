@@ -8,12 +8,12 @@
 
     <ImageButton
         android:id="@+id/MainButton"
-        android:layout_width="370dp"
-        android:layout_height="130dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="352dp"
+        android:layout_height="131dp"
+        android:layout_marginTop="8dp"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
         app:srcCompat="@drawable/btn1" />
@@ -22,7 +22,7 @@
         android:id="@+id/MainButton2"
         android:layout_width="370dp"
         android:layout_height="130dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="8dp"
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.609"
@@ -31,28 +31,28 @@
         app:srcCompat="@drawable/btn2" />
 
     <ImageButton
-        android:id="@+id/MainButton3"
+        android:id="@+id/voltar_azul"
         android:layout_width="370dp"
         android:layout_height="130dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="4dp"
         android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintHorizontal_bias="0.609"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/MainButton2"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/btn3" />
 
     <ImageButton
-        android:id="@+id/MainButton4"
+        android:id="@+id/ir_alfabeto"
         android:layout_width="370dp"
         android:layout_height="130dp"
         android:scaleType="fitCenter"
-        app:layout_constraintBottom_toTopOf="@+id/toolbar2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/MainButton3"
-        app:layout_constraintVertical_bias="0.451"
+        app:layout_constraintTop_toBottomOf="@+id/voltar_azul"
         app:srcCompat="@drawable/btn4" />
 
     <androidx.appcompat.widget.Toolbar
@@ -66,24 +66,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar2"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        android:background="#FEDA15"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="94dp"
-        android:layout_height="84dp"
+        android:layout_width="79dp"
+        android:layout_height="77dp"
         app:layout_constraintEnd_toEndOf="@+id/toolbar"
         app:srcCompat="@drawable/logo__2_"
-        tools:layout_editor_absoluteY="-8dp" />
+        tools:layout_editor_absoluteY="-10dp" />
 
     <TextView
         android:id="@+id/textView"
@@ -95,7 +84,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar"
         app:layout_constraintEnd_toStartOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintHorizontal_bias="0.718"
         app:layout_constraintStart_toStartOf="@+id/toolbar"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.727" />

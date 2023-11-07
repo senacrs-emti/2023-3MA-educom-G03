@@ -77,15 +77,15 @@
         tools:layout_editor_absoluteY="16dp" />
 
     <ImageButton
-        android:id="@+id/MainButton3"
-        android:layout_width="69dp"
-        android:layout_height="50dp"
+        android:id="@+id/voltar_azul"
+        android:layout_width="93dp"
+        android:layout_height="66dp"
         android:backgroundTint="#00FFFFFF"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toStartOf="@+id/textView2"
         app:layout_constraintHorizontal_bias="0.141"
         app:layout_constraintStart_toStartOf="@+id/toolbar2"
-        app:srcCompat="@drawable/seta"
+        app:srcCompat="@drawable/seta_azul"
         tools:layout_editor_absoluteY="0dp" />
 
     <ImageView

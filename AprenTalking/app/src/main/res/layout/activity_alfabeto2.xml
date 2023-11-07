@@ -10,12 +10,13 @@
         android:id="@+id/headerAlfabeto3"
         android:layout_width="417dp"
         android:layout_height="57dp"
+        android:layout_marginBottom="1dp"
         android:background="#FEDA15"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.833"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
@@ -62,9 +63,9 @@
 
     <ImageButton
         android:id="@+id/voltarbtnAlfabeto3"
-        android:layout_width="76dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="78dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="664dp"
         android:backgroundTint="#00FFFFFF"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="@+id/headerAlfabeto"
@@ -73,7 +74,7 @@
         app:layout_constraintStart_toStartOf="@+id/headerAlfabeto"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/microsoftteams_image" />
+        app:srcCompat="@drawable/seta_voltar_alfabeto" />
 
     <TextView
         android:id="@+id/titleAlfabeto3"

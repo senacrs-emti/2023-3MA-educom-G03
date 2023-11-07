@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
@@ -19,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
 
         MainButton = findViewById(R.id.MainButton);
         MainButton2 = findViewById(R.id.MainButton2);
-        MainButton3 = findViewById(R.id.MainButton3);
-        MainButton4 = findViewById(R.id.MainButton4);
+        MainButton3 = findViewById(R.id.voltar_azul);
+        MainButton4 = findViewById(R.id.ir_alfabeto);
 
         MainButton.setOnClickListener(new View.OnClickListener() {
             @Override

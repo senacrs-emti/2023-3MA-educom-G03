@@ -8,39 +8,42 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="132dp"
+        android:layout_height="135dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.618"
+        app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.916"
         app:srcCompat="@drawable/banana" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_marginStart="32dp"
         android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/limao" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="127dp"
+        android:layout_height="111dp"
         android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.126"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.923"
+        app:layout_constraintVertical_bias="0.296"
         app:srcCompat="@drawable/maca" />
 
     <ImageView
@@ -52,27 +55,30 @@
         app:layout_constraintHorizontal_bias="0.827"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.292"
+        app:layout_constraintVertical_bias="0.239"
         app:srcCompat="@drawable/melancia" />
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="132dp"
+        android:layout_height="138dp"
+        android:layout_marginBottom="108dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageView6"
-        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintHorizontal_bias="0.395"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/morango"
-        tools:layout_editor_absoluteY="512dp" />
+        app:srcCompat="@drawable/morango" />
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginEnd="36dp"
+        android:layout_width="142dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="492dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/uva"
-        tools:layout_editor_absoluteY="512dp" />
+        app:layout_constraintHorizontal_bias="0.827"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/uva" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -95,16 +101,31 @@
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="-1dp" />
 
+    <ImageButton
+        android:id="@+id/Voltarfrutas"
+        android:layout_width="108dp"
+        android:layout_height="73dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="@+id/toolbar2"
+        app:srcCompat="@drawable/seta_roxa"
+        tools:layout_editor_absoluteY="0dp" />
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar3"
         android:layout_width="333dp"
         android:layout_height="57dp"
-        android:layout_marginTop="24dp"
         android:background="#951ABE"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar2"
-        tools:layout_editor_absoluteX="33dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.121" />
 
     <TextView
         android:id="@+id/textView"
@@ -136,16 +157,6 @@
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="16dp" />
-
-    <ImageButton
-        android:id="@+id/MainButton3"
-        android:layout_width="88dp"
-        android:layout_height="59dp"
-        android:layout_marginStart="16dp"
-        android:scaleType="centerInside"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/seta"
-        tools:layout_editor_absoluteY="-2dp" />
 
     <ImageView
         android:id="@+id/imageView8"

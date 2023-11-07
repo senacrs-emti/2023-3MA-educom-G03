@@ -113,19 +113,6 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/microsoftteams_image__6_" />
 
-    <ImageButton
-        android:id="@+id/VoltarAnimais"
-        android:layout_width="64dp"
-        android:layout_height="52dp"
-        android:scaleType="centerInside"
-        app:layout_constraintBottom_toBottomOf="@+id/footer"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.046"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/header"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/ca489c53_a88f_4934_9f3c_2745b8a51dfa_removebg_preview" />
-
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/HeaderAnimais"
         android:layout_width="351dp"
@@ -140,6 +127,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.104" />
+
+    <ImageButton
+        android:id="@+id/VoltarAnimais"
+        android:layout_width="104dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="@+id/headerAlfabeto"
+        app:layout_constraintEnd_toEndOf="@+id/headerAlfabeto"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/headerAlfabeto"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.304"
+        app:srcCompat="@drawable/seta_verde" />
 
     <TextView
         android:id="@+id/TitleAnimal"
