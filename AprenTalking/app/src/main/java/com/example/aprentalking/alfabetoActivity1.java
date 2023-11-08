@@ -18,10 +18,8 @@ public class alfabetoActivity1 extends AppCompatActivity {
         setContentView(R.layout.activity_alfabeto1);
 
         voltarbtnAlfabeto = findViewById(R.id.voltarbtnAlfabeto);
-        ir_alfabeto = findViewById(R.id.ir_alfabeto);
 
         voltarbtnAlfabeto.setOnClickListener(new View.OnClickListener() {
-
             @Override
             public void onClick(View view) {
                 Intent voltar = new Intent(getApplicationContext(),MainActivity.class);
@@ -29,12 +27,12 @@ public class alfabetoActivity1 extends AppCompatActivity {
             }
         });
 
+        ir_alfabeto = findViewById(R.id.ir_alfabeto);
         ir_alfabeto.setOnClickListener(new View.OnClickListener() {
-
             @Override
             public void onClick(View view) {
-                Intent mudar = new Intent(getApplicationContext(),alfabetoActivity2.class);
-                startActivity(mudar);
+                Intent alfabeto2 = new Intent(getApplicationContext(),alfabetoActivity2.class);
+                startActivity(alfabeto2);
             }
         });
 
