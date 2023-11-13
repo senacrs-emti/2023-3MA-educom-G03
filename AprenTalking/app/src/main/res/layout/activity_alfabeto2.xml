@@ -7,6 +7,75 @@
     tools:context=".alfabetoActivity2">
 
     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar5"
+        android:layout_width="417dp"
+        android:layout_height="57dp"
+        android:background="#FEDA15"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/headerAlfabeto2"
+        android:layout_width="417dp"
+        android:layout_height="57dp"
+        android:background="#FEDA15"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/titleAlfabeto2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="136dp"
+        android:text="AprenTalking"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/headerAlfabeto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="@+id/headerAlfabeto"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.657" />
+
+    <ImageView
+        android:id="@+id/logoAlfabeto2"
+        android:layout_width="138dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="664dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/headerAlfabeto"
+        app:layout_constraintVertical_bias="0.013"
+        app:srcCompat="@drawable/microsoftteams_image__1_" />
+
+    <ImageButton
+        android:id="@+id/voltarAlfabeto"
+        android:layout_width="104dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="@+id/headerAlfabeto"
+        app:layout_constraintEnd_toEndOf="@+id/headerAlfabeto"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/headerAlfabeto"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.304"
+        app:srcCompat="@drawable/seta_vermelha" />
+
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/headerAlfabeto3"
         android:layout_width="417dp"
         android:layout_height="57dp"
@@ -22,19 +91,6 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar7"
-        android:layout_width="417dp"
-        android:layout_height="57dp"
-        android:background="#FEDA15"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar6"
         android:layout_width="359dp"
         android:layout_height="57dp"
@@ -47,49 +103,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.06" />
-
-    <ImageView
-        android:id="@+id/logoAlfabeto3"
-        android:layout_width="138dp"
-        android:layout_height="64dp"
-        android:layout_marginBottom="656dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/headerAlfabeto"
-        app:layout_constraintVertical_bias="0.013"
-        app:srcCompat="@drawable/microsoftteams_image__1_" />
-
-    <ImageButton
-        android:id="@+id/voltarbtnAlfabeto3"
-        android:layout_width="78dp"
-        android:layout_height="86dp"
-        android:layout_marginTop="664dp"
-        android:backgroundTint="#00FFFFFF"
-        android:scaleType="centerInside"
-        app:layout_constraintBottom_toBottomOf="@+id/headerAlfabeto"
-        app:layout_constraintEnd_toEndOf="@+id/headerAlfabeto"
-        app:layout_constraintHorizontal_bias="0.052"
-        app:layout_constraintStart_toStartOf="@+id/headerAlfabeto"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/seta_voltar_alfabeto" />
-
-    <TextView
-        android:id="@+id/titleAlfabeto3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="132dp"
-        android:text="AprenTalking"
-        android:textColor="#000000"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbar7"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintStart_toStartOf="@+id/headerAlfabeto"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.657" />
 
     <TextView
         android:id="@+id/alfabeto2"
@@ -242,4 +255,5 @@
         app:layout_constraintTop_toBottomOf="@+id/Vbtn"
         app:layout_constraintVertical_bias="0.172"
         app:srcCompat="@drawable/z" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

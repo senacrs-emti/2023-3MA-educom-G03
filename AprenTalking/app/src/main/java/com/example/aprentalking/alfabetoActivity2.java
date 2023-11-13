@@ -9,24 +9,26 @@ import android.widget.ImageButton;
 
 public class alfabetoActivity2 extends AppCompatActivity {
 
-    ImageButton voltarbtnAlfabeto3;
+    /* O problema tá aqui tbm */
+
+    ImageButton voltarAlfabeto;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alfabeto2);
 
+    findViewById(R.id.voltarAlfabeto);
 
-        voltarbtnAlfabeto3 = findViewById(R.id.voltarbtnAlfabeto);
+/* O problema tá aqui, refazer amanhã */
+    voltarAlfabeto.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            Intent back = new Intent(getApplicationContext(),alfabetoActivity1.class);
+            startActivity(back);
+        }
+    });
 
-        voltarbtnAlfabeto3.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View view) {
-                Intent voltar = new Intent(getApplicationContext(),alfabetoActivity1.class);
-                startActivity(voltar);
-            }
-        });
 
 
 
