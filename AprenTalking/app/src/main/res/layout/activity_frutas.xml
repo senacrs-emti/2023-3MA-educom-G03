@@ -6,38 +6,44 @@
     android:layout_height="match_parent"
     tools:context=".FrutasActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="132dp"
-        android:layout_height="135dp"
+    <ImageButton
+        android:id="@+id/btn_banana"
+        android:layout_width="154dp"
+        android:layout_height="150dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView6"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/btn_grape"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.536"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/btn_lemon"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.866"
         app:srcCompat="@drawable/banana" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+    <ImageButton
+        android:id="@+id/btn_lemon"
+        android:layout_width="172dp"
+        android:layout_height="163dp"
         android:layout_marginBottom="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/btn_strawberry"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintHorizontal_bias="0.138"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/limao" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="127dp"
-        android:layout_height="111dp"
+    <ImageButton
+        android:id="@+id/btn_apple"
+        android:layout_width="154dp"
+        android:layout_height="123dp"
         android:layout_marginBottom="8dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.126"
@@ -46,10 +52,12 @@
         app:layout_constraintVertical_bias="0.296"
         app:srcCompat="@drawable/maca" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+    <ImageButton
+        android:id="@+id/btn_watermelon"
+        android:layout_width="153dp"
+        android:layout_height="160dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.827"
@@ -58,21 +66,25 @@
         app:layout_constraintVertical_bias="0.239"
         app:srcCompat="@drawable/melancia" />
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="132dp"
-        android:layout_height="138dp"
+    <ImageButton
+        android:id="@+id/btn_strawberry"
+        android:layout_width="138dp"
+        android:layout_height="163dp"
         android:layout_marginBottom="64dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView6"
+        app:layout_constraintEnd_toStartOf="@+id/btn_grape"
         app:layout_constraintHorizontal_bias="0.395"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/morango" />
 
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="142dp"
-        android:layout_height="137dp"
+    <ImageButton
+        android:id="@+id/btn_grape"
+        android:layout_width="156dp"
+        android:layout_height="144dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.791"

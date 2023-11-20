@@ -7,7 +7,7 @@
     tools:context=".AnimaisActivity">
 
     <Button
-        android:id="@+id/OvelhaButton1"
+        android:id="@+id/horse_name"
         android:layout_width="77dp"
         android:layout_height="39dp"
         android:backgroundTint="#45A102"
@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.619" />
 
     <Button
-        android:id="@+id/PorcoButton2"
+        android:id="@+id/pig_sound"
         android:layout_width="77dp"
         android:layout_height="39dp"
         android:backgroundTint="#45A102"
@@ -33,7 +33,7 @@
         app:layout_constraintVertical_bias="0.619" />
 
     <Button
-        android:id="@+id/OvelhaButton2"
+        android:id="@+id/horse_sound"
         android:layout_width="77dp"
         android:layout_height="39dp"
         android:backgroundTint="#45A102"
@@ -46,7 +46,7 @@
         app:layout_constraintVertical_bias="0.619" />
 
     <Button
-        android:id="@+id/PorcoButton1"
+        android:id="@+id/pig_name"
         android:layout_width="77dp"
         android:layout_height="39dp"
         android:backgroundTint="#45A102"
@@ -170,7 +170,7 @@
         app:srcCompat="@drawable/coelho"/>
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/btn_watermelon"
         android:layout_width="139dp"
         android:layout_height="129dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -182,7 +182,7 @@
         app:srcCompat="@drawable/ovelha" />
 
     <Button
-        android:id="@+id/CavaloButton1"
+        android:id="@+id/sheep_name"
         android:layout_width="77dp"
         android:layout_height="39dp"
         android:backgroundTint="#45A102"
@@ -195,7 +195,7 @@
         app:layout_constraintVertical_bias="0.364" />
 
     <Button
-        android:id="@+id/VacaButton2"
+        android:id="@+id/rabbit_sound"
         android:layout_width="77dp"
         android:layout_height="39dp"
         android:backgroundTint="#45A102"
@@ -208,7 +208,7 @@
         app:layout_constraintVertical_bias="0.364" />
 
     <Button
-        android:id="@+id/CavaloButton2"
+        android:id="@+id/sheep_sound"
         android:layout_width="77dp"
         android:layout_height="39dp"
         android:backgroundTint="#45A102"
@@ -221,7 +221,7 @@
         app:layout_constraintVertical_bias="0.364" />
 
     <Button
-        android:id="@+id/VacaButton1"
+        android:id="@+id/rabbit_name"
         android:layout_width="77dp"
         android:layout_height="39dp"
         android:backgroundTint="#45A102"
@@ -234,7 +234,7 @@
         app:layout_constraintVertical_bias="0.364" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/btn_strawberry"
         android:layout_width="143dp"
         android:layout_height="129dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -246,7 +246,7 @@
         app:srcCompat="@drawable/porco" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/btn_grape"
         android:layout_width="144dp"
         android:layout_height="130dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -270,7 +270,7 @@
         app:srcCompat="@drawable/vaca" />
 
     <Button
-        android:id="@+id/GalinhaButton1"
+        android:id="@+id/chicken_name"
         android:layout_width="77dp"
         android:layout_height="39dp"
         android:backgroundTint="#45A102"
@@ -283,7 +283,7 @@
         app:layout_constraintVertical_bias="0.894" />
 
     <Button
-        android:id="@+id/CoelhoButton1"
+        android:id="@+id/cow_name"
         android:layout_width="77dp"
         android:layout_height="39dp"
         android:backgroundTint="#45A102"
@@ -296,7 +296,7 @@
         app:layout_constraintVertical_bias="0.894" />
 
     <Button
-        android:id="@+id/GalinhaButton2"
+        android:id="@+id/chicken_sound"
         android:layout_width="77dp"
         android:layout_height="39dp"
         android:backgroundTint="#45A102"
@@ -309,7 +309,7 @@
         app:layout_constraintVertical_bias="0.894" />
 
     <Button
-        android:id="@+id/CoelhoButton2"
+        android:id="@+id/cow_sound"
         android:layout_width="77dp"
         android:layout_height="39dp"
         android:backgroundTint="#45A102"
