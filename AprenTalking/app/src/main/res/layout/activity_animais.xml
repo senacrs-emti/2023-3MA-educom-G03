@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".AnimaisActivity">
 
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="56dp"
+        android:layout_height="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/peca_verde" />
+
     <Button
         android:id="@+id/horse_name"
         android:layout_width="77dp"
@@ -75,6 +85,7 @@
         android:id="@+id/header"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="673dp"
         android:background="#FEDA15"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
@@ -84,6 +95,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.002" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="35dp"
+        android:layout_height="34dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018"
+        app:srcCompat="@drawable/peca_verde" />
 
     <TextView
         android:id="@+id/Title"
@@ -100,18 +123,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.018" />
-
-    <ImageView
-        android:id="@+id/LogoAnimais"
-        android:layout_width="140dp"
-        android:layout_height="48dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.996"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/microsoftteams_image__6_" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/HeaderAnimais"
@@ -130,16 +141,17 @@
 
     <ImageButton
         android:id="@+id/VoltarAnimais"
-        android:layout_width="104dp"
-        android:layout_height="80dp"
+        android:layout_width="97dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="296dp"
         android:backgroundTint="#00FFFFFF"
         android:scaleType="centerInside"
-        app:layout_constraintBottom_toBottomOf="@+id/headerAlfabeto"
-        app:layout_constraintEnd_toEndOf="@+id/headerAlfabeto"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/headerAlfabeto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.027"
+        app:layout_constraintStart_toStartOf="@+id/header"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.304"
+        app:layout_constraintVertical_bias="0.002"
         app:srcCompat="@drawable/seta_verde" />
 
     <TextView
@@ -167,7 +179,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.204"
-        app:srcCompat="@drawable/coelho"/>
+        app:srcCompat="@drawable/coelho" />
 
     <ImageView
         android:id="@+id/btn_watermelon"

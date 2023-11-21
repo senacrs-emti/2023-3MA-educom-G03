@@ -15,7 +15,7 @@ public class AnimaisActivity extends AppCompatActivity {
 
     ImageButton VoltarAnimais;
     private SoundPool soundPool;
-    private int Chicken,Cow,Horse, Pig,Rabbit,Sheep,chickens,;
+    private int cavalo,coelho,galinha,ovelha,porco,vaca,chickens,cow,horse,pig,rabbit,sheep;
 
 
 
@@ -53,45 +53,100 @@ public class AnimaisActivity extends AppCompatActivity {
             soundPool = new SoundPool(3, AudioManager.STREAM_MUSIC, 0);
         }
 
-        Apple = soundPool.load(this, R.raw.apple, 1);
-        Banana = soundPool.load(this, R.raw.banana, 1);
-        Grape = soundPool.load(this, R.raw.grape, 1);
-        Lemon = soundPool.load(this, R.raw.lemon, 1);
-        Strawberry = soundPool.load(this, R.raw.strawberry, 1);
-        Watermelon = soundPool.load(this, R.raw.watermelon, 1);
+        cavalo = soundPool.load(this, R.raw.cavalo, 1);
+        coelho = soundPool.load(this, R.raw.coelho, 1);
+        galinha = soundPool.load(this, R.raw.galinha, 1);
+        ovelha = soundPool.load(this, R.raw.ovelha, 1);
+        porco = soundPool.load(this, R.raw.porco, 1);
+        vaca = soundPool.load(this, R.raw.vaca, 1);
 
-        findViewById(R.id.btn_apple).setOnClickListener(new View.OnClickListener() {
+        horse = soundPool.load(this, R.raw.horse, 1);
+        rabbit = soundPool.load(this, R.raw.rabbit, 1);
+        chickens = soundPool.load(this, R.raw.chickens, 1);
+        sheep = soundPool.load(this, R.raw.sheep, 1);
+        pig = soundPool.load(this, R.raw.pig, 1);
+        cow = soundPool.load(this, R.raw.cow, 1);
+
+        findViewById(R.id.sheep_name).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                playSound(Apple);
+                playSound(ovelha);
+            }
+        });
+        findViewById(R.id.sheep_sound).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playSound(sheep);
             }
         });
 
-        findViewById(R.id.btn_banana).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.horse_name).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                playSound(Banana);
+                playSound(cavalo);
+            }
+        });
+        findViewById(R.id.horse_sound).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playSound(horse);
             }
         });
 
-        findViewById(R.id.btn_lemon).setOnClickListener(new View.OnClickListener() {
+
+        findViewById(R.id.pig_name).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                playSound(Lemon);
+                playSound(porco);
             }
         });
-        findViewById(R.id.btn_strawberry).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.pig_sound).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                playSound(Strawberry);
+                playSound(pig);
             }
         });
-        findViewById(R.id.btn_watermelon).setOnClickListener(new View.OnClickListener() {
+
+        findViewById(R.id.chicken_name).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                playSound(Watermelon);
+                playSound(galinha);
             }
         });
+        findViewById(R.id.chicken_sound).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playSound(chickens);
+            }
+        });
+
+        findViewById(R.id.cow_name).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playSound(vaca);
+            }
+        });
+        findViewById(R.id.cow_sound).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playSound(cow);
+            }
+        });
+
+
+        findViewById(R.id.rabbit_name).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playSound(coelho);
+            }
+        });
+        findViewById(R.id.rabbit_sound).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playSound(rabbit);
+            }
+        });
+
     }
 
     private void playSound(int audioId) {

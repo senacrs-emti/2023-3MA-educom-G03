@@ -7,22 +7,11 @@
     tools:context=".MainActivity">
 
     <ImageButton
-        android:id="@+id/MainButton"
-        android:layout_width="352dp"
-        android:layout_height="131dp"
-        android:layout_marginTop="8dp"
-        android:scaleType="centerCrop"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        app:srcCompat="@drawable/btn1" />
-
-    <ImageButton
         android:id="@+id/MainButton2"
         android:layout_width="370dp"
         android:layout_height="130dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#00FFFFFF"
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.609"
@@ -31,48 +20,69 @@
         app:srcCompat="@drawable/btn2" />
 
     <ImageButton
+        android:id="@+id/ir_alfabeto"
+        android:layout_width="370dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/voltar_azul"
+        app:srcCompat="@drawable/btn4" />
+
+    <ImageButton
         android:id="@+id/voltar_azul"
         android:layout_width="370dp"
         android:layout_height="130dp"
         android:layout_marginTop="4dp"
+        android:backgroundTint="#00FFFFFF"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.609"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/MainButton2"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.081"
         app:srcCompat="@drawable/btn3" />
 
     <ImageButton
-        android:id="@+id/ir_alfabeto"
-        android:layout_width="370dp"
-        android:layout_height="130dp"
-        android:scaleType="fitCenter"
+        android:id="@+id/MainButton"
+        android:layout_width="352dp"
+        android:layout_height="131dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/voltar_azul"
-        app:srcCompat="@drawable/btn4" />
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:srcCompat="@drawable/btn1" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
+        android:layout_width="421dp"
+        android:layout_height="83dp"
         android:background="#FEDA15"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/btn_banana"
-        android:layout_width="79dp"
-        android:layout_height="77dp"
-        app:layout_constraintEnd_toEndOf="@+id/toolbar"
-        app:srcCompat="@drawable/logo__2_"
-        tools:layout_editor_absoluteY="-10dp" />
+        android:layout_width="75dp"
+        android:layout_height="86dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo__2_" />
 
     <TextView
         android:id="@+id/textView"
@@ -83,10 +93,10 @@
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar"
-        app:layout_constraintEnd_toStartOf="@+id/btn_banana"
-        app:layout_constraintHorizontal_bias="0.718"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar"
+        app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="@+id/toolbar"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.727" />
+        app:layout_constraintVertical_bias="0.612" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

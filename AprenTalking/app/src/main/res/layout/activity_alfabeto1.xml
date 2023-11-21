@@ -81,6 +81,7 @@
         android:text="AprenTalking"
         android:textColor="#000000"
         android:textSize="25sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/headerAlfabeto"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
@@ -90,28 +91,28 @@
 
     <ImageView
         android:id="@+id/logoAlfabeto"
-        android:layout_width="138dp"
-        android:layout_height="64dp"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.972"
+        app:layout_constraintHorizontal_bias="0.957"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/headerAlfabeto"
-        app:layout_constraintVertical_bias="0.013"
-        app:srcCompat="@drawable/microsoftteams_image__1_" />
+        app:layout_constraintVertical_bias="0.022"
+        app:srcCompat="@drawable/peca_vermelha" />
 
     <ImageButton
         android:id="@+id/voltarbtnAlfabeto"
-        android:layout_width="104dp"
-        android:layout_height="80dp"
+        android:layout_width="98dp"
+        android:layout_height="76dp"
         android:backgroundTint="#00FFFFFF"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="@+id/headerAlfabeto"
         app:layout_constraintEnd_toEndOf="@+id/headerAlfabeto"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.022"
         app:layout_constraintStart_toStartOf="@+id/headerAlfabeto"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.304"
+        app:layout_constraintVertical_bias="0.26"
         app:srcCompat="@drawable/seta_vermelha" />
 
     <TextView

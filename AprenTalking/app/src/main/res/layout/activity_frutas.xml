@@ -60,10 +60,10 @@
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.827"
+        app:layout_constraintHorizontal_bias="0.825"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.239"
+        app:layout_constraintVertical_bias="0.281"
         app:srcCompat="@drawable/melancia" />
 
     <ImageButton
@@ -116,15 +116,15 @@
 
     <ImageButton
         android:id="@+id/Voltarfrutas"
-        android:layout_width="108dp"
-        android:layout_height="73dp"
+        android:layout_width="82dp"
+        android:layout_height="64dp"
         android:backgroundTint="#00FFFFFF"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toStartOf="@+id/textView2"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/toolbar2"
         app:srcCompat="@drawable/seta_roxa"
-        tools:layout_editor_absoluteY="-12dp" />
+        tools:layout_editor_absoluteY="-3dp" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar3"
@@ -174,10 +174,12 @@
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="117dp"
-        android:layout_height="63dp"
-        app:layout_constraintEnd_toEndOf="@+id/toolbar2"
-        app:srcCompat="@drawable/pe_a_roxa"
-        tools:layout_editor_absoluteY="-2dp" />
+        android:layout_width="47dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="336dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pe_a_roxa" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

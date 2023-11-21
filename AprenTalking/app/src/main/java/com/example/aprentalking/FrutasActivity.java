@@ -72,7 +72,6 @@ public class FrutasActivity extends AppCompatActivity {
                 playSound(Banana);
             }
         });
-
         findViewById(R.id.btn_lemon).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -89,6 +88,12 @@ public class FrutasActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 playSound(Watermelon);
+            }
+        });
+        findViewById(R.id.btn_grape).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playSound(Grape);
             }
         });
     }
