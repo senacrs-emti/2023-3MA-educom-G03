@@ -14,9 +14,10 @@ import android.widget.ImageButton;
 
 public class alfabetoActivity1 extends AppCompatActivity {
 
-    ImageButton voltarbtnAlfabeto,ir_alfabeto;
+    ImageButton voltarbtnAlfabeto;
     private SoundPool soundPool;
-    private int letterA,letterB,letterC,letterD,letterE,letterF,letterG,letterH,letterI,letterJ,letterK,letterL,letterM,letterN,letterO,letterP;
+    private int letterA, letterB, letterC, letterD, letterE, letterF, letterG, letterH, letterI, letterJ, letterK, letterL, letterM, letterN, letterO, letterP, letterQ, letterR, letterS, letterT, letterU, letterV, letterW, letterX, letterY, letterZ;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +25,6 @@ public class alfabetoActivity1 extends AppCompatActivity {
         setContentView(R.layout.activity_alfabeto1);
 
         voltarbtnAlfabeto = findViewById(R.id.voltarbtnAlfabeto);
-        ir_alfabeto = findViewById(R.id.ir_alfabeto);
 
 
         voltarbtnAlfabeto.setOnClickListener(new View.OnClickListener() {
@@ -32,14 +32,6 @@ public class alfabetoActivity1 extends AppCompatActivity {
             public void onClick(View view) {
                 Intent voltar = new Intent(getApplicationContext(),MainActivity.class);
                 startActivity(voltar);
-            }
-        });
-
-        ir_alfabeto.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent alfabeto2 = new Intent(getApplicationContext(), alfabetoActivity2.class);
-                startActivity(alfabeto2);
             }
         });
 
@@ -77,6 +69,16 @@ public class alfabetoActivity1 extends AppCompatActivity {
         letterN = soundPool.load(this, R.raw.lettern, 1);
         letterO= soundPool.load(this, R.raw.lettero, 1);
         letterP = soundPool.load(this, R.raw.letterp, 1);
+        letterQ = soundPool.load(this, R.raw.letterq, 1);
+        letterR = soundPool.load(this, R.raw.letterr, 1);
+        letterS = soundPool.load(this, R.raw.letters, 1);
+        letterT = soundPool.load(this, R.raw.lettert, 1);
+        letterU = soundPool.load(this, R.raw.letteru, 1);
+        letterV = soundPool.load(this, R.raw.letterv, 1);
+        letterW = soundPool.load(this, R.raw.letterw, 1);
+        letterX = soundPool.load(this, R.raw.letterx, 1);
+        letterY = soundPool.load(this, R.raw.lettery, 1);
+        letterZ = soundPool.load(this, R.raw.letterz, 1);
 
         findViewById(R.id.Abtn).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -182,6 +184,70 @@ public class alfabetoActivity1 extends AppCompatActivity {
                 playSound(letterP);
             }
         });
+
+
+        findViewById(R.id.Qbtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playSound(letterQ);
+            }
+        });
+        findViewById(R.id.Rbtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playSound(letterR);
+            }
+        });
+        findViewById(R.id.Sbtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playSound(letterS);
+            }
+        });
+        findViewById(R.id.Tbtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playSound(letterT);
+            }
+        });
+        findViewById(R.id.Ubtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playSound(letterU);
+            }
+        });
+        findViewById(R.id.Vbtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playSound(letterV);
+            }
+        });
+        findViewById(R.id.Wbtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playSound(letterW);
+            }
+        });
+        findViewById(R.id.Xbtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playSound(letterX);
+            }
+        });
+        findViewById(R.id.Ybtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playSound(letterY);
+            }
+        });
+        findViewById(R.id.Zbtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playSound(letterZ);
+            }
+        });
+
+
     }
     private void playSound(int audioId) {
         soundPool.play(audioId, 1, 1, 0, 0, 1);
